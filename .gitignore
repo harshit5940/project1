@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Virtual env
+.venv/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit cache
+.streamlit/
+
+# OS/files
+.DS_Store
+Thumbs.db
+
+# Data
+data/*.csv
+!data/.gitkeep
+
+# Logs
+logs/
+*.log
